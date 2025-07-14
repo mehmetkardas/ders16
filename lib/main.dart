@@ -1,6 +1,8 @@
 import 'package:ders16/widgets.dart/expansion_tile.dart';
+import 'package:ders16/widgets.dart/filter_menu_with_chips.dart';
 import 'package:ders16/widgets.dart/image_and_tabbar_page.dart';
 import 'package:ders16/widgets.dart/liste_ornek.dart';
+import 'package:ders16/widgets.dart/nested_tabbar_ornek.dart';
 import 'package:ders16/widgets.dart/page_view_page.dart';
 import 'package:ders16/widgets.dart/settings_expansion_menu.dart';
 import 'package:ders16/widgets.dart/simple_image_slider.dart';
@@ -17,7 +19,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: ImageAndTabbarPage(),
+      home: FilterMenuWithChips(),
     );
   }
 }

@@ -50,6 +50,15 @@ class _ImageAndTabbarPageState extends State<ImageAndTabbarPage> {
                 Tab(text: "Detay"),
               ],
             ),
+            Expanded(
+              child: TabBarView(
+                children: [
+                  Center(child: Text("Ürün Açıklaması")),
+                  Center(child: Text("Ürün Yorumlar")),
+                  Center(child: Text("Ürün Detay")),
+                ],
+              ),
+            ),
           ],
         ),
       ),
